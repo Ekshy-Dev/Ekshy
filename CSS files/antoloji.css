@@ -18,7 +18,7 @@ div {
     cursor: pointer;
     border-radius: 100px;
     border: 0px;
-    transition: all 0.1s ease;
+    transition: all 0.4s ease;      
     top: 0;
 }
 
@@ -29,8 +29,8 @@ div {
     width: 150px;
     font-size: 200%;
     border-width: 2px;
-    border-radius: 50%;
-    transition: all 0.1s ease;
+    border-radius: 80%;
+    transition: all 0.4s ease;
     
     background-image: url('Antoloji Images/AdpyCYqh_400x400.jpg'); 
     background-position: center;
