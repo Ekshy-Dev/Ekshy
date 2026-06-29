@@ -1,0 +1,125 @@
+.TemplateDiv {
+    background-color: #858585;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 83px;
+    
+}
+
+.TemplateButton {
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0px 60px;
+    margin: 8px 40px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+} 
+
+.TemplateButton:hover {
+    background-color: rgb(39, 39, 39);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0px 60px;
+    margin: 8px 40px;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+} 
+
+.TemplateButton:active {
+    background-color: rgb(59, 59, 59);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 0px 60px;
+    margin: 8px 40px;
+    cursor: pointer;
+    position: absolute;
+    color: rgb(153, 153, 153);
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;    
+} 
+
+.TemplateHeaderDiv {
+    display: grid;
+    background-color: pink;
+    grid-template-columns: 1fr;
+    grid-template-rows: 22px 1fr;
+    grid-gap: 10px;
+    margin-top: 80px;
+    height: 500px;
+}
+
+.FirstDiv {
+    background-color: #858585;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    
+}
+
+.SecondDiv {
+    background-color: #858585;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.ThirdDiv {
+    background-color: #858585;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.FourthDiv {
+    background-color: #858585;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.FifthDiv {
+    background-color: #858585;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.SixthDiv {
+    background-color: #858585;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+@media (min-width: 950px) {
+    .TemplateHeaderDiv {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
